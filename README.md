@@ -1,4 +1,5 @@
-# online-detection-method-for-multi-label-bridge-surface-defects-in-UAV-monitoring-scenario
+# Here are the research results of the paper Deep learning based online detection method for multi-label bridge surface defects in UAV monitoring scenario, including the research code and dataset
+
 
 ## Abstract:
 Defect detection on bridge surfaces is crucial to ensure the safe operation of bridges. However, current research rarely pays attention to the problem of multi-label bridge surface defect detection, especially in unmanned aerial vehicle (UAV) monitoring scenario. In this paper, a multi-label bridge defect detection scheme is proposed, which combines the multi softmax classification loss function with self-attention and convolutional mixed (ACmix) module. Specifically, the multi softmax loss function decouples the origin softmax ground-truth item, and removing the mutual suppression of multi-label loss. ACmix effectively solving the problems of multi-label recognition difficulties and large-scale changes in bridge defects image scale in UAV scene. The model is evaluated on an improved Codebrim dataset and showed a 17.9\% mAP performance improvement compared to baseline model YOLOv5. Compared to current SOTA model YOLOv8, it achieves the highest performance in multi-label bridge defect detection, meeting the requirement of real-time bridge defect detection.
